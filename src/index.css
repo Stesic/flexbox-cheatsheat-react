@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url('./view/images/flexbox.jpg');
+  background-size: cover;
+}

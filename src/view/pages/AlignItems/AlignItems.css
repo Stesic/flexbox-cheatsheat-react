@@ -1,0 +1,41 @@
+.alignItemsClass{
+    display: flex;
+    border: 0.2em solid white;
+    flex-direction: row;
+    height: 10em;
+}
+
+
+.alignItemsStart {
+    align-items: flex-start;
+}
+
+.alignItemsEnd{
+    align-items: flex-end;
+}
+
+.alignItemsCenter{
+    align-items: center;
+}
+.alignItemsStretch {
+    align-items: stretch;
+}
+
+.alignItemsBaseline {
+    align-items: baseline;
+}
+
+
+.alignItemsClass div, .alignItemsEnd div, .alignItemsCenter div, .alignItemsStretch div, .alignItemsBaseline div {
+    background: rgb(240, 65, 65);
+    margin: 0.5em;
+    flex-basis: 4vw;
+    padding: 1em;
+    text-align: center;
+}
+.alignItemsBaseline div:nth-of-type(1){
+    height: 4em;
+}
+.alignItemsBaseline div:nth-of-type(4){
+    height: 2em;
+}

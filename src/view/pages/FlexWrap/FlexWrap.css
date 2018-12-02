@@ -1,0 +1,28 @@
+.wrapClass {
+  display: flex;
+  border: 0.2em solid white;
+  height: 10em;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+.noWrap {
+  flex-wrap: nowrap;
+}
+
+.wrapReverse {
+    flex-wrap: wrap-reverse;
+}
+
+.wrapClass div {
+  background: rgb(240, 65, 65);
+  margin: 0.5em;
+  flex-basis: 6vw;
+  text-align: center;
+}
+
+.message {
+    font-weight: bold;
+    text-transform: uppercase;
+}
