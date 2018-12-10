@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const FlexItems = ()=>{
     return (
@@ -6,12 +7,12 @@ const FlexItems = ()=>{
         <div className="flexItems capitalizeText">
         <h3>properties for flex items</h3>
             <ul>
-                <li><a>Order</a></li>
-                <li><a>align self</a></li>
-                <li><a>flex grow</a></li>
-                <li><a>flex shrink</a></li>
-                <li><a>flex basis</a></li>
-                <li><a>grow, shrink & basis</a></li>
+                <li><Link to='/order'>Order</Link></li>
+                <li><Link to='/alignSelf'>align self</Link></li>
+                <li><Link to='flexGrow'>flex grow</Link></li>
+                <li><Link to='flexShrink'>flex shrink</Link></li>
+                <li><Link to='flexBasis'>flex basis</Link></li>
+                <li><Link to='growShrinkBasis'>grow, shrink & basis</Link></li>
             </ul>
         </div>
         </>

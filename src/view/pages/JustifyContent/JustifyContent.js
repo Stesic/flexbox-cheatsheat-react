@@ -9,6 +9,7 @@ const JustifyContent = () => {
         <h3>property: justify-content</h3>
       </header>
       <section>
+        <h2>Justify content along the main axis.</h2>
         <article>
           <h5>justify-content: flex-start;</h5>
           <div className="justifyStart justifyClass">

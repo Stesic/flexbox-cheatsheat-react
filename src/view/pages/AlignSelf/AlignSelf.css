@@ -1,0 +1,34 @@
+.alignSelf {
+    display: flex;
+    border: 0.2em solid white;
+    height: 10em;
+}
+
+.alignSelfStyle div {
+    background: rgb(240, 65, 65);
+    padding: 1.5em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.alignSelfStart{
+    align-self: flex-start;
+
+}
+.alignSelfEnd{
+    align-self: flex-end;
+}
+.alignSelfCenter{
+    align-self: center;
+}
+.alignSelfStretch{
+    align-self: stretch;
+}
+
+
+.alignSelfBaseline{
+    align-self: baseline;
+}
+.alignSelfBaseline:last-of-type{
+    height: 1.5em;
+}

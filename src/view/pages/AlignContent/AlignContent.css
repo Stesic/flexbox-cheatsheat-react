@@ -1,0 +1,31 @@
+.alignContentClass{
+    display: flex;
+    flex-direction: row;
+    border: 0.2em solid white;
+    height: 15em;
+    flex-wrap: wrap;
+}
+
+.alignContentStart{
+    align-content: flex-start;
+}
+.alignContentEnd{
+    align-content: flex-end;
+}
+.alignContentCenter{
+    align-content: center;
+}
+.alignContentAround{
+    align-content: space-around;
+}
+.alignContentBetween{
+    align-content: space-between;
+}
+
+.divStyling div {
+    margin: 0.5em;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background: rgb(240, 65, 65)
+}

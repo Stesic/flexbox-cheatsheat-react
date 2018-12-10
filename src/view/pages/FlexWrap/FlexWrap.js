@@ -68,7 +68,7 @@ const FlexWrap = () => {
               <li>flex-direction: row;</li>
               <li>flex-wrap:wrap;
               <ul>
-                  <li>Shorthand property is: flex-flow: row-wrap;</li>
+                  <li>Shorthand property is: flex-flow: row wrap;</li>
               </ul>
               </li>
           </ul>
