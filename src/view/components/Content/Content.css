@@ -5,6 +5,7 @@ main {
     margin: 0 auto;
 }
 
+
 .flexContainer, .flexItems {
     display: flex;
     flex-direction: column;

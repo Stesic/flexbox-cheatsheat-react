@@ -1,0 +1,31 @@
+.flexBasis{
+    display: flex;
+    border: 0.2em solid white;
+}
+
+.flexBasisStyle div {
+    background: rgb(240, 65, 65);
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.flexBasis10{
+    flex-basis: 10em;
+}
+
+.flexBasis15{
+    flex-basis: 15em;
+}
+
+.basisColumn{
+    flex-direction: column;
+}
+
+.flexBasis5{
+    flex-basis: 5em;
+}
+
+.flexBasis8{
+    flex-basis: 8em;
+}

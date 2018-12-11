@@ -1,0 +1,8 @@
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 3em auto;
+    width: 80%;
+    color: white;
+}

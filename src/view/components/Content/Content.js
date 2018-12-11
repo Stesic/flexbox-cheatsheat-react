@@ -12,6 +12,7 @@ const Content = () => {
         <FlexContainers />
         <FlexItems />
       </main>
+        
     </>
   );
 };

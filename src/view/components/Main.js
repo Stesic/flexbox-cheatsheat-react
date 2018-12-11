@@ -10,6 +10,8 @@ import { AlignContent } from '../pages/AlignContent/AlignContent.js';
 import { Order } from '../pages/Order/Order.js';
 import { AlignSelf } from '../pages/AlignSelf/AlignSelf.js';
 import { FlexGrow } from '../pages/FlexGrow/FlexGrow.js';
+import { FlexShrink } from '../pages/FlexShrink/FlexShrink.js';
+import { FlexBasis } from '../pages/FlexBasis/FlexBasis.js';
 
 const Main = () => {
     return (
@@ -23,11 +25,12 @@ const Main = () => {
         <Route path='/order' component={Order}/>
         <Route path='/alignSelf' component={AlignSelf}/>
         <Route path='/flexGrow' component={FlexGrow}/>
-        {/* <Route path='/flexShrink' component={FlexShrink}/>
+        <Route path='/flexShrink' component={FlexShrink}/>
         <Route path='/flexBasis' component={FlexBasis}/>
-        <Route path='/growShrinkBasis' component={GrowShrinkBasis}/> */}
+        {/* <Route path='/growShrinkBasis' component={GrowShrinkBasis}/> */} */}
         <Route path='/' component={Content}/>
         </Switch>
+      
         </>
     )
 }
