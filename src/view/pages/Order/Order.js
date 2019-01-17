@@ -9,7 +9,7 @@ const Order = () => {
         <h3>property: order</h3>
       </header>
       <section>
-      <article>
+        <article>
           <h5>Default order has value 0.</h5>
           <div className="order orderStyle borderBlue">
             <div>1 order:0</div>
@@ -29,7 +29,7 @@ const Order = () => {
             <div>5 order:0</div>
           </div>
         </article>
- 
+
       </section>
     </>
   );

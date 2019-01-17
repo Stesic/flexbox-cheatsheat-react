@@ -13,7 +13,7 @@ const Header = () => {
         state.homePage = false;
     }
     return (
-        <header className='capitalizeText'>
+        <header className='pageHeader capitalizeText'>
             <h1><Link to='/'>flexbox properties</Link></h1>
             {state.homePage? 
             <p>Simple app where user can see flexbox properties and how they can be used</p> : ""

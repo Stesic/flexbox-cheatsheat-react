@@ -26,9 +26,17 @@ section div {
   border: 0.2em solid #428bca;
 }
 
+
+/*sticky footer */
+
+
 #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background: #f9f9f9;
+}
+
+main {
+  flex: 1;
 }

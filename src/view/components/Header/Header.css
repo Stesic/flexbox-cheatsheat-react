@@ -1,4 +1,4 @@
-header {
+header, .pageHeader {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -8,6 +8,11 @@ header {
 
 header h3 {
   color: #428bca;
+}
+
+header h1 {
+  width: 100%;
+  text-align: center;
 }
 
 header h1 a {
