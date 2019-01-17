@@ -11,7 +11,7 @@ const Order = () => {
       <section>
       <article>
           <h5>Default order has value 0.</h5>
-          <div className="order orderStyle">
+          <div className="order orderStyle borderBlue">
             <div>1 order:0</div>
             <div>2 order:0</div>
             <div>3 order:0</div>
@@ -21,7 +21,7 @@ const Order = () => {
         </article>
         <article>
           <h5>Element with lower value is first in a row.</h5>
-          <div className="order orderStyle">
+          <div className="order orderStyle borderBlue">
             <div className='order4'>1 order:4</div>
             <div>2 order:0</div>
             <div className="order1">3 order:1</div>

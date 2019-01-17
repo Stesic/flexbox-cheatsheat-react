@@ -14,7 +14,7 @@ const FlexWrap = () => {
         </h5>
         <article>
           <h5>flex-wrap: wrap;</h5>
-          <div className="flexWrap wrapClass">
+          <div className="flexWrap wrapClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -31,7 +31,7 @@ const FlexWrap = () => {
         </article>
         <article>
           <h5>flex-wrap: nowrap</h5>
-          <div className="noWrap wrapClass">
+          <div className="noWrap wrapClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -48,7 +48,7 @@ const FlexWrap = () => {
         </article>
         <article>
           <h5>flex-wrap: wrap-reverse;</h5>
-          <div className="wrapReverse wrapClass">
+          <div className="wrapReverse wrapClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -65,12 +65,12 @@ const FlexWrap = () => {
         </article>
         <h5>
           <ul>
-              <li>flex-direction: row;</li>
-              <li>flex-wrap:wrap;
+            <li>flex-direction: row;</li>
+            <li>flex-wrap:wrap;
               <ul>
-                  <li>Shorthand property is: flex-flow: row wrap;</li>
+                <li>Shorthand property is: flex-flow: row wrap;</li>
               </ul>
-              </li>
+            </li>
           </ul>
         </h5>
       </section>

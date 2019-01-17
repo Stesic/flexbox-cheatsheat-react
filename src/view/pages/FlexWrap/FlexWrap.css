@@ -12,17 +12,18 @@
 }
 
 .wrapReverse {
-    flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 .wrapClass div {
-  background: rgb(240, 65, 65);
+  background: #d9534f;
   margin: 0.5em;
   flex-basis: 6vw;
   text-align: center;
+  border-radius: 0.2em;
 }
 
 .message {
-    font-weight: bold;
-    text-transform: uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
 }

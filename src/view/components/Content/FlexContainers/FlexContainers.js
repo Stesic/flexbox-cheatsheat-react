@@ -1,19 +1,19 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-const FlexContainers = () =>{
-    return(
+const FlexContainers = () => {
+    return (
         <>
-        <div className='flexContainer capitalizeText'>
-        <h3>properties for flex containers</h3>
-            <ul>
-                <li><Link to='/flexDirection'>flow direction</Link></li>
-                <li><Link to='/justifyContent'>justify content</Link></li>
-                <li><Link to='/alignItems'>align items</Link></li>
-                <li><Link to='/flexWrap'>flex wrap</Link></li>
-                <li><Link to='/alignContent'>align content</Link></li>
-            </ul>
-        </div>
+            <div className='flexContainer capitalizeText'>
+                <h3>properties for flex containers</h3>
+                <ul>
+                    <Link to='/flexDirection'><li>flex direction</li></Link>
+                    <Link to='/justifyContent'><li>justify content</li></Link>
+                    <Link to='/alignItems'><li>align items</li></Link>
+                    <Link to='/flexWrap'><li>flex wrap</li></Link>
+                    <Link to='/alignContent'><li>align content</li></Link>
+                </ul>
+            </div>
         </>
     )
 }

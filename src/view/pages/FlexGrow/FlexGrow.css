@@ -1,18 +1,19 @@
-.flexGrow{
-    display: flex;
-    border: 0.2em solid white;
+.flexGrow {
+  display: flex;
+  border: 0.2em solid white;
 }
 
 .flexGrowStyle div {
-    background: rgb(240, 65, 65);
-    padding: 1.5em;
-    margin: 0.5em;
-    text-align: center;
+  margin: 0.5em;
+  padding: 1.5em;
+  background: #d9534f;
+  text-align: center;
+  border-radius: 0.2em;
 }
 
-.flexGrow1{
-    flex-grow: 1;
+.flexGrow1 {
+  flex-grow: 1;
 }
-.flexGrow3{
-    flex-grow: 3;
+.flexGrow3 {
+  flex-grow: 3;
 }

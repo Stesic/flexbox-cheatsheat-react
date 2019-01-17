@@ -1,43 +1,39 @@
 h5 {
-    font-size: 1.5em;
+  font-size: 1.5em;
   margin: 1em 0;
 }
 
 .justifyClass {
-    display: flex;
-    border: 0.2em solid white;
-    height: 10em;
-
+  display: flex;
+  border: 0.2em solid white;
+  height: 10em;
 }
 
 .justifyStart {
-    flex-direction: row;
-    justify-content: flex-start;
-
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .justifyEnd {
-    justify-content: flex-end;
-
+  justify-content: flex-end;
 }
 
 .justifyCenter {
-    justify-content: center;
+  justify-content: center;
 }
 
-.justifyAround{
-    justify-content: space-around;
+.justifyAround {
+  justify-content: space-around;
 }
 
-.justifyBetween{
-    justify-content: space-between;
+.justifyBetween {
+  justify-content: space-between;
 }
 
 .justifyClass div {
-    background: rgb(240, 65, 65);
-    margin: 0.5em;
-    flex-basis: 4vw;
-    text-align: center;
+  background: #d9534f;
+  margin: 0.5em;
+  flex-basis: 4vw;
+  text-align: center;
+  border-radius: 0.2em;
 }
-
-

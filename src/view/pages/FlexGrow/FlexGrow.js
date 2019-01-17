@@ -9,9 +9,9 @@ const FlexGrow = () => {
         <h3>property: flex-grow</h3>
       </header>
       <section>
-      <article>
+        <article>
           <h5>flex-grow: 0(default)</h5>
-          <div className="flexGrow flexGrowStyle">
+          <div className="flexGrow flexGrowStyle borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -21,7 +21,7 @@ const FlexGrow = () => {
         </article>
         <article>
           <h5>flex-grow: 1, just one element</h5>
-          <div className="flexGrow flexGrowStyle">
+          <div className="flexGrow flexGrowStyle borderBlue">
             <div>1</div>
             <div>2</div>
             <div className="flexGrow1"><p>3</p><p>flex-grow:1</p></div>
@@ -31,7 +31,7 @@ const FlexGrow = () => {
         </article>
         <article>
           <h5>flex-grow: 1 for 3 and 5 element</h5>
-          <div className="flexGrow flexGrowStyle">
+          <div className="flexGrow flexGrowStyle borderBlue">
             <div>1</div>
             <div>2</div>
             <div className="flexGrow1"><p>3</p><p>flex-grow:1</p></div>
@@ -39,9 +39,9 @@ const FlexGrow = () => {
             <div className="flexGrow1"><p>5</p><p>flex-grow:1</p></div>
           </div>
         </article>
-      <article>
+        <article>
           <h5>flex-grow: 1 for 3 and 5 element, flex-grow: 2 for 1, 2 and 4 element.</h5>
-          <div className="flexGrow flexGrowStyle">
+          <div className="flexGrow flexGrowStyle borderBlue">
             <div className="flexGrow3"><p>1</p><p>flex-grow:3</p></div>
             <div className="flexGrow3"><p>2</p><p>flex-grow:3</p></div>
             <div className="flexGrow1"><p>3</p><p>flex-grow:1</p></div>

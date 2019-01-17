@@ -1,8 +1,23 @@
 header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 3em 0;
-    color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 3em auto;
+  width: 90%;
 }
 
+header h3 {
+  color: #428bca;
+}
+
+header h1 a {
+  color: #428bca;
+  text-align: center;
+}
+
+header p {
+  width: 80%;
+  margin: 2em 0 0;
+  color: #428bca;
+  text-align: center;
+}

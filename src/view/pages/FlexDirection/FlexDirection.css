@@ -3,7 +3,6 @@ section {
   margin: auto;
 }
 
-
 #rrH {
   display: flex;
   justify-content: flex-end;
@@ -11,36 +10,42 @@ section {
 .rowContainer {
   display: flex;
   flex-direction: row;
+  padding: 0.3em;
 }
 
 .rowContainer div,
 .rowReverseContainer div {
-  flex-basis: 3vw;
-  background: rgb(240, 65, 65);
   padding: 1em;
+  flex-basis: 3vw;
+  background: #d9534f;
   margin-right: 0.5em;
   text-align: center;
+  border-radius: 0.2em;
 }
 
 .rowReverseContainer {
   display: flex;
   flex-direction: row-reverse;
+  padding: 0.3em;
 }
 
 .columnContainer div,
 .colReverseContainer div {
   flex-basis: 2vw;
-  background: rgb(240, 65, 65);
+  background: #d9534f;
   padding: 1em;
   text-align: center;
   margin-top: 0.5em;
+  border-radius: 0.2em;
 }
 
 .columnContainer {
   display: flex;
   flex-direction: column;
+  padding: 0.3em;
 }
 .colReverseContainer {
-    display: flex;
-    flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0.3em;
 }

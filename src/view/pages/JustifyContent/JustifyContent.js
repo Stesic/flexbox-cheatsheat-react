@@ -12,7 +12,7 @@ const JustifyContent = () => {
         <h2>Justify content along the main axis.</h2>
         <article>
           <h5>justify-content: flex-start;</h5>
-          <div className="justifyStart justifyClass">
+          <div className="justifyStart justifyClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -22,7 +22,7 @@ const JustifyContent = () => {
         </article>
         <article>
           <h5>justify-content: flex-end;</h5>
-          <div className="justifyEnd justifyClass">
+          <div className="justifyEnd justifyClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -32,7 +32,7 @@ const JustifyContent = () => {
         </article>
         <article>
           <h5>justify-content: center;</h5>
-          <div className="justifyCenter justifyClass">
+          <div className="justifyCenter justifyClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -42,7 +42,7 @@ const JustifyContent = () => {
         </article>
         <article>
           <h5>justify-content: space-around;</h5>
-          <div className="justifyAround justifyClass">
+          <div className="justifyAround justifyClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -52,7 +52,7 @@ const JustifyContent = () => {
         </article>
         <article>
           <h5>justify-content: space-between;</h5>
-          <div className="justifyBetween justifyClass">
+          <div className="justifyBetween justifyClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>

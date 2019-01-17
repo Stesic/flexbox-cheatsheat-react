@@ -11,7 +11,7 @@ const AlignItems = () => {
       <section>
         <article>
           <h5>align-items: flex-start;</h5>
-          <div className="alignItemsStart alignItemsClass">
+          <div className="alignItemsStart alignItemsClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -21,7 +21,7 @@ const AlignItems = () => {
         </article>
         <article>
           <h5>align-items: flex-end;</h5>
-          <div className="alignItemsEnd alignItemsClass">
+          <div className="alignItemsEnd alignItemsClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -31,7 +31,7 @@ const AlignItems = () => {
         </article>
         <article>
           <h5>align-items: center;</h5>
-          <div className="alignItemsCenter alignItemsClass">
+          <div className="alignItemsCenter alignItemsClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -41,7 +41,7 @@ const AlignItems = () => {
         </article>
         <article>
           <h5>align-items: stretch;</h5>
-          <div className="alignItemsStretch alignItemsClass">
+          <div className="alignItemsStretch alignItemsClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -51,7 +51,7 @@ const AlignItems = () => {
         </article>
         <article>
           <h5>align-items: baseline;</h5>
-          <div className="alignItemsBaseline alignItemsClass">
+          <div className="alignItemsBaseline alignItemsClass borderBlue">
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -60,7 +60,7 @@ const AlignItems = () => {
           </div>
         </article>
       </section>
-      
+
     </>
   );
 };

@@ -1,12 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+
 .capitalizeText {
     text-transform: capitalize;
 }
 
+section  {
+  color: #428bca
+}
+section div {
+  color: white;
+}
+
+.borderBlue{
+  border: 0.2em solid #428bca;
+}
 
 #root {
-
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
-
+  min-height: 100vh;
+  background: #f9f9f9;
 }

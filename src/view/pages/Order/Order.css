@@ -1,24 +1,25 @@
 .order {
-    display: flex;
-    align-items: flex-start;
-    border: 0.2em solid white;
-    height: 10em;
+  display: flex;
+  align-items: flex-start;
+  border: 0.2em solid white;
+  height: 10em;
 }
 
-.order1{
-    order: 1;
+.order1 {
+  order: 1;
 }
-.order-1{
-    order: -1;
+.order-1 {
+  order: -1;
 }
-.order4{
-    order: 4;
+.order4 {
+  order: 4;
 }
 
 .orderStyle div {
-    background: rgb(240, 65, 65);
-    padding: 1em;
-    margin: 0.5em;
-    flex-basis: 3vw;
-    text-align: center;
+  background: #d9534f;
+  padding: 1em;
+  margin: 0.5em;
+  flex-basis: 3vw;
+  text-align: center;
+  border-radius: 0.2em;
 }

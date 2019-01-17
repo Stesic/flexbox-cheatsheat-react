@@ -1,8 +1,18 @@
 footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    margin: 3em auto;
-    width: 80%;
-    color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-top: 3em;
+  width: 100%;
+  background: #428bca;
+}
+
+footer p {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+footer p a {
+  color: white;
 }
